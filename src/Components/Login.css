@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&family=Roboto+Slab:wght@600&display=swap');
+
+.login-body{
+    height: 100%;
+}
+
+.title{
+    height: 12%;
+    background-color: #F4C95D;
+    display: flex;
+}
+.title > label{
+    margin: 0 auto ;
+    padding: 20px;
+    font-size: 3rem;
+    color: rgb(14, 13, 13);
+    font-family: 'Pixelify Sans', cursive;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88%;
+}
+.login-container{
+    height: 500px;
+    width: 400px;
+    border: 1px solid #7e7e7e;
+    box-shadow: 5px 5px 8px #7f7d7d8f;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    display:flex;
+    justify-content: center;
+}
+
+.logo > label{
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+.username{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.username > label{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.input > label{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.in{
+    margin: 20px 20px;
+    padding: 5px;
+}
+.Login{
+    margin: auto auto 70px auto;
+}
+.Login > button{
+    padding: 10px 35px;
+}
+
